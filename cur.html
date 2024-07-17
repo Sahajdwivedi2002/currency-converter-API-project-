@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="cur.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <form action="">
+        <div class="outer">
+            <div class="inner">
+                <h1>Currency Converter</h1>
+                <div class="amount">
+                    <p>Enter Amount</p>
+                    <input value="100" type="text">
+                </div>
+                <div class="dropdown">
+                    <div class="from">
+                        <p>From</p>
+                        <div class="selectcontainer">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                            <select name="from" id="from"></select>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <div class="to">
+                        <p>To</p>
+                        <div class="selectcontainer">
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                            <select name="to" id="to"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="msg">=> Please click</div>
+                <div class="submit">
+                    <button>Get Rate</button>
+                </div>
+            </div>
+            
+        </div>
+        </form>
+    <script src="cur.js"></script>
+</body>
+</html>
